@@ -1,147 +1,239 @@
 
 body {
-	background-color: darkblue;
-	
+   height: 100%;
+  width: 100%;
+	background-color: black;
+	  justify-content: center;
+        align-items: center;
 }
 
-.grid {
+
+
+
+
+
+
+.header { object-position: top right;
+            margin-left: auto;
+            margin-right: auto;
+vertical-align: middle; 
+            width:1000px; 
+            height:100px; 
+            display:inline-block; 
+            border:5px solid white; 
+            position:fixed; 
+            align-items: center;
+            background-color: black;
+           
+          overflow: hidden;
+          display: grid;
+           grid-template-columns: repeat(4,1fr); 
+          grid-template-rows: 1fr;
+        }
+
+
+.Scroll {
   height: 100%;
   width: 100%;
  
    margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
-  background-color: darkblue;
+  margin-top: 0%;
+  background-color: black;
   display: grid;
   
   grid-template-columns:repeat(11,10fr);
   grid-template-rows:repeat(12,10fr);
   position: absolute;
+  justify-content: center;
+        align-items: center;
+}
+
+.keyart-1 {
+  margin: 512px;
+  background-color: lightseagreen;
+    position: relative;
+     grid-row: 2 ;
+  grid-column: 2 / 11;
+   display: block;
+   height: 2048px;
+  width: 2048px;
+  overflow: hidden;
+  
+}
+
+.keyart-2 {
+  margin: 512px;
+  background-color: lightseagreen;
+    position: relative;
+     grid-row: 7 ;
+  grid-column: 2 / 11;
+   display: block;
+   height: 2048px;
+  width: 2048px;
+  overflow: hidden;
+  
+}
+
+.keyart-3 {
+  margin: 512px;
+  background-color: lightseagreen;
+    position: relative;
+     grid-row: 12 ;
+  grid-column: 2 / 11;
+   display: block;
+   height: 2048px;
+  width: 2048px;
+  overflow: hidden;
+  
+}
+
+.dark1 {
+  margin: 512px;
+ position: absolute;
+  height: 200px;
+  width: 2048px;
+  grid-row: 4 / 6 ;
+  grid-column: 2 / 11;
+  display: block;
+  background-color: black;
+  justify-items: center;
+}
+
+.dark2 {
+  margin: 512px;
+ position: absolute;
+  height: 200px;
+  width: 2048px;
+  grid-row: 8 / 10 ;
+  grid-column: 2 / 11;
+  display: block;
+  background-color: black;
   align-content: center;
 }
 
-
-.frame2 {
- 
+.dark3 {
+ position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 2 / 9 ;
-  grid-column: 3 / 10;
-  display: block;
-  background-color: darkblue;
-}
-
-.frame1 {
-  
-  height: 100%;
-  width: 100%;
-  grid-row: 1 / 10 ;
+  grid-row: 2 / 3 ;
   grid-column: 2 / 11;
   display: block;
-  background-color: lightblue;
+  background-color: blue;
 }
- 
-.sketchfab {
 
+#keyart-0{
+
+  position: absolute;
   height: 100%;
   width: 100%;
-   grid-row: 4 / 5 ;
-  grid-column: 6 / 10;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-0.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.sketchfab2 {
-
+#keyart-1{
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 4 / 5 ;
-  grid-column: 2 / 6;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-1.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.behance {
- 
+#keyart-1b{
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 6 / 7 ;
-  grid-column: 2 / 6;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-1b.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.behance2 {
-  
+#keyart-2{
+  margin-bottom: 300px;
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 6 / 7 ;
-  grid-column: 6 / 10;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-2.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.shkola {
-
+#keyart-3{
+  position: absolute;
   height: 100%;
   width: 100%;
-   grid-row: 8 / 9 ;
-  grid-column: 6 / 10;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-3.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.shkola2 {
-
+#keyart-4{
+  margin-top: 1024px;
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 8 / 9 ;
-  grid-column: 2 / 6;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-4.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.web-design {
- 
+#keyart-4b{
+  margin-top: 1024px;
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 10 / 11;
-  grid-column: 2 / 6;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-4b.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.web-design2 {
-  
+#keyart-5{
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 10 / 11;
-  grid-column: 6 / 10;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-5.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.merch {
-
+#keyart-6{
+  position: absolute;
   height: 100%;
   width: 100%;
-   grid-row: 12 ;
-  grid-column: 6 / 10;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-6.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
 
-.merch2 {
-
+#keyart-7{
+  margin-left: 2300px;
+  position: absolute;
   height: 100%;
   width: 100%;
-  grid-row: 12 ;
-  grid-column: 2 / 6;
-  display: block;
-  background-color: lightseagreen;
+   background-image: url("./keyart-7.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
 }
+
+#keyart-8{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+   background-image: url("./keyart-8.png");
+background-repeat: no-repeat;
+background-size:100%  100%;
+}
+
+
+
+
+
 
 .text1 {
+  align-items: center;
+  position: relative;
   text-align: center;
   display: text;
   font-family: 'Merriweather';
@@ -149,17 +241,35 @@ body {
   src: url('/fonts/Merriweather-Regular.ttf'); 
   src: url('/fonts/Lato-Regular.ttf');
   font-weight: 500;
-  font-size: 18px;
+  font-size: 50px;
   font-style: normal;
-  color: lightblue;
-  margin-top: 18%;
+  color: white;
+  margin-top: 50px;
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 .text2 {
-  text-align: right;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  display: text;
+  font-family: 'Merriweather';
+  font-family: 'Lato';
+  src: url('/fonts/Merriweather-Regular.ttf'); 
+  src: url('/fonts/Lato-Regular.ttf');
+  font-weight: 500;
+  font-size: 100px;
+  font-style: normal;
+  color: white;
+  margin-top: 400px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text3 {
+  text-align: center;
   display: text;
   font-family: 'Merriweather';
   font-family: 'Lato';
@@ -174,16 +284,16 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
-
-.text3 {
-  text-align: left;
+.text3b {
+  vertical-align: middle; 
+  text-align: center;
   display: text;
   font-family: 'Merriweather';
   font-family: 'Lato';
   src: url('/fonts/Merriweather-Regular.ttf'); 
   src: url('/fonts/Lato-Regular.ttf');
   font-weight: 500;
-  font-size: 18px;
+  font-size: 30px;
   font-style: normal;
   color: white;
   margin-top: 10px;
@@ -193,14 +303,14 @@ body {
 }
 
 .text4 {
-  text-align: left;
+  text-align: center;
   display: text;
   font-family: 'Merriweather';
   font-family: 'Lato';
   src: url('/fonts/Merriweather-Regular.ttf'); 
   src: url('/fonts/Lato-Regular.ttf');
   font-weight: 500;
-  font-size: 30px;
+  font-size: 50px;
   font-style: normal;
   color: white;
   margin-top: 10px;
