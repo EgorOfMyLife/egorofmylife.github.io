@@ -1,0 +1,136 @@
+
+body {
+	background-color: white;
+	
+}
+
+
+.pool {
+  background-color: blue;
+  height: 500px;
+  width: 500px;
+}
+
+.swim {	
+	display: text;
+	font-family: 'Raleway', 'Poppins';
+    src: '/fonts/Raleway-Regular.ttf'; 
+	src: '/fonts/Poppins-Regular.ttf';
+    font-weight: 400;
+    font-style: normal;
+	color: black;
+	overflow: hidden;
+}
+
+.pool:hover .swim {
+animation-play-state: running;
+animation: swimming 5s forwards infinite alternate;
+}
+
+@keyframes swimming {
+	0%{
+		transform: translateX(0) translateY(0);
+	}
+	16%{
+		transform: translateX(25px) translateY(75px);
+	}
+	32%{
+		transform: translateX(175px) translateY(125px);
+	}
+	48%{
+		transform: translateX(225px) translateY(275px);
+	}
+	64%{
+		transform: translateX(375px) translateY(325px);
+	}
+	80%{
+		transform: translateX(425px) translateY(475px);
+	}
+	100%{
+		transform: translateX(500px) translateY(500px);
+	}
+	
+	
+	
+	}	
+
+
+
+
+  .gym {
+  background-color: orange;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.stretch {	
+	display: text;
+	padding: 250px 0px;
+	font-family: 'Oswald', 'Merriweather';
+    src: '/fonts/Oswald-Regular.ttf'; 
+	src: '/fonts/Merriweather-Regular.ttf';
+    font-weight: 400;
+    font-style: normal;
+	color: blue;
+	text-align: center;
+	
+}
+
+.gym:hover .stretch {
+animation-play-state: running;
+animation: stretching 1.5s forwards infinite alternate;
+}
+
+@keyframes stretching {
+	0%{
+		letter-spacing: 5px;
+	}
+	
+	100%{
+		letter-spacing: 50px;
+	}
+	
+	
+	
+	}	
+	
+
+
+  .air {
+  background-color: turquoise;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.fall {	
+	display: text;
+	font-family: 'Lato', 'Roboto';
+    src: '/fonts/Lato-Regular.ttf'; 
+	src: '/fonts/Roboto-Regular.ttf';
+    font-weight: 400;
+    font-style: normal;
+	color: red;
+	text-align: center;
+	
+}
+
+.air:hover .fall {
+animation-play-state: running;
+animation: falling 2s forwards;
+}
+
+@keyframes falling {
+	0%{
+		transform: translateX(0) translateY(0);
+	}
+	
+	100%{
+		transform: translateX(0) translateY(900px);
+	}
+	
+	
+	
+	}	
+}	

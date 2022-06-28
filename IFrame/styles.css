@@ -1,0 +1,209 @@
+
+body {
+	background-color: white;
+	
+}
+
+.iFrames {
+  height: 100%;
+  width: 100%;
+ 
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-color: white;
+  display: grid;
+  
+  grid-template-columns:repeat(11,10fr);
+  grid-template-rows:repeat(12,10fr);
+  position: absolute;
+  align-content: center;
+}
+
+
+.insta {
+ 
+  height: 100%;
+  width: 100%;
+  grid-row: 2 / 3 ;
+  grid-column: 2 / 6;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.intro {
+  
+  height: 100%;
+  width: 100%;
+  grid-row: 2 / 3 ;
+  grid-column: 6 / 10;
+  display: block;
+  background-color: lightseagreen;
+}
+ 
+.sketchfab {
+
+  height: 100%;
+  width: 100%;
+   grid-row: 4 / 5 ;
+  grid-column: 6 / 10;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.sketchfab2 {
+
+  height: 100%;
+  width: 100%;
+  grid-row: 4 / 5 ;
+  grid-column: 2 / 6;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.behance {
+ 
+  height: 100%;
+  width: 100%;
+  grid-row: 6 / 7 ;
+  grid-column: 2 / 6;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.behance2 {
+  
+  height: 100%;
+  width: 100%;
+  grid-row: 6 / 7 ;
+  grid-column: 6 / 10;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.shkola {
+
+  height: 100%;
+  width: 100%;
+   grid-row: 8 / 9 ;
+  grid-column: 6 / 10;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.shkola2 {
+
+  height: 100%;
+  width: 100%;
+  grid-row: 8 / 9 ;
+  grid-column: 2 / 6;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.web-design {
+ 
+  height: 100%;
+  width: 100%;
+  grid-row: 10 / 11;
+  grid-column: 2 / 6;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.web-design2 {
+  
+  height: 100%;
+  width: 100%;
+  grid-row: 10 / 11;
+  grid-column: 6 / 10;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.merch {
+
+  height: 100%;
+  width: 100%;
+   grid-row: 12 ;
+  grid-column: 6 / 10;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.merch2 {
+
+  height: 100%;
+  width: 100%;
+  grid-row: 12 ;
+  grid-column: 2 / 6;
+  display: block;
+  background-color: lightseagreen;
+}
+
+.text1 {
+  text-align: right;
+  display: text;
+  font-family: 'Merriweather';
+  font-family: 'Lato';
+  src: url('/fonts/Merriweather-Regular.ttf'); 
+  src: url('/fonts/Lato-Regular.ttf');
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.text2 {
+  text-align: right;
+  display: text;
+  font-family: 'Merriweather';
+  font-family: 'Lato';
+  src: url('/fonts/Merriweather-Regular.ttf'); 
+  src: url('/fonts/Lato-Regular.ttf');
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text3 {
+  text-align: left;
+  display: text;
+  font-family: 'Merriweather';
+  font-family: 'Lato';
+  src: url('/fonts/Merriweather-Regular.ttf'); 
+  src: url('/fonts/Lato-Regular.ttf');
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text4 {
+  text-align: left;
+  display: text;
+  font-family: 'Merriweather';
+  font-family: 'Lato';
+  src: url('/fonts/Merriweather-Regular.ttf'); 
+  src: url('/fonts/Lato-Regular.ttf');
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
